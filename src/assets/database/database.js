@@ -21,6 +21,7 @@ export const productData = {
     ],
     relatedProducts: Array(8).fill(null).map((_, i) => `/images/related${i + 1}.jpg`),
     quantity: 50,
+    link: "https://gooogle.com"
   },
 
 
@@ -37,11 +38,14 @@ export const productData = {
       { label: "Frame", value: "--" },
     ],
     thumbnails: [
-      "https://down-id.img.susercontent.com/file/id-11134207-7rbkc-m9cmf7dfv11762.webp",
-      "/images/starry_hoop_2.jpg",
+      "/img/totoro/totoro1.webp",
+      "/img/totoro/totoro2.jpg",
+      "/img/totoro/totoro3.jpg",
+      "/img/totoro/totoro4.jpg",
     ],
     relatedProducts: Array(5).fill(null).map((_, i) => `/images/related_hoop${i + 1}.jpg`),
     quantity: 99,
+    link: "https://shopee.co.id/My-Neighbor-Totoro-Crochet-Keychain-Ghibli-Crochet-by-Charmedia%E2%9C%A8%EF%B8%8F-i.97645207.29285951668"
   },
 
 

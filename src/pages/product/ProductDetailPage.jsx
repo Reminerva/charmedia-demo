@@ -26,7 +26,7 @@ export default function ProductDetailPage() {
   };
 
   const handleShopeeClick = () => {
-    window.open("https://google.com", "_blank");
+    window.open(`${productDetails.link}`, "_blank");
   };
 
   if (!productDetails) {
@@ -59,8 +59,7 @@ export default function ProductDetailPage() {
                 src={thumb}
                 alt={`Thumbnail ${index + 1}`}
                 className="w-16 h-16 object-cover rounded-full border mr-2 md:mr-0 cursor-pointer"
-                onClick={() => handleThumbnailClick(thumb)}
-              />
+                onClick={() => handleThumbnailClick(thumb)} />
             ))}
           </div>
           <div className="w-full h-full border rounded-2xl flex justify-center md:max-w-[300px] ">
