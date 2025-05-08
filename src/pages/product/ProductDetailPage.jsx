@@ -39,7 +39,7 @@ export default function ProductDetailPage() {
       <nav className="text-sm text-gray-600 mb-6" style={{ fontFamily: 'Cholens' }} onClick={() => window.location.href = "/"}>
         {/* Home {'>'} {productDetails.name} */}
         <a href="/" className='cursor-pointer hover:text-gray-900'>Home {'>'} </a>
-        <a href={`/product/${productName}`} className='cursor-pointer hover:text-gray-900'>{productDetails.name}</a>
+        <a href={`/product/${productName}.html`} className='cursor-pointer hover:text-gray-900'>{productDetails.name}</a>
       </nav>
 
       <div className="flex flex-col md:grid md:grid-cols-[auto_1fr] gap-y-6 gap-x-6 w-full ">
