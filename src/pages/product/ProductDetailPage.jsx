@@ -33,13 +33,18 @@ export default function ProductDetailPage() {
     return <div>Loading...</div>;
   }
 
+  function capitalizeWords(str) {
+    return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  }
+
+  const productDetailsname = productDetails.name;
   return (
     
     <div className="font-serif text-[#333] bg-[#FFF8F0] p-6 mx-1 min-h-screen">
       <nav className="text-sm text-gray-600 mb-6" style={{ fontFamily: 'Cholens' }} onClick={() => window.location.href = "/"}>
         {/* Home {'>'} {productDetails.name} */}
         <a href="/" className='cursor-pointer hover:text-gray-900'>Home {'>'} </a>
-        <a href={`/product/${productName}`} className='cursor-pointer hover:text-gray-900'>{productDetails.name}</a>
+        <a href={`/product/${productName}`} className='cursor-pointer hover:text-gray-900'>{capitalizeWords(productDetails.name)}</a>
       </nav>
 
       <div className="flex flex-col md:grid md:grid-cols-[auto_1fr] gap-y-6 gap-x-6 w-full ">
