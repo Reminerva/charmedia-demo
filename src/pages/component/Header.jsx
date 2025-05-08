@@ -8,7 +8,8 @@ export default function Header() {
       <div className="bg-[#FDDDE6] pl-2 py-3 flex items-center">
         {/* Logo */}
         <div className="flex items-center mr-2 ml-2 cursor-pointer">
-          <img src="../../public/logo.png" alt="Logo" className="w-12 h-12" onClick={() => window.location.href = "/"}/>
+          <img src="../src/assets/logo.png" alt="Logo" className="w-12 h-12" onClick={() => window.location.href = "/"}/>
+          
         </div>
         <div 
           className="text-2xl font-bold text-[#E47068] ml-1 cursor-pointer hover:text-[#9b4b45]" 
