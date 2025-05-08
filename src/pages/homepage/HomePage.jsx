@@ -10,7 +10,7 @@ function HomePage() {
       <ul>
         {productList.map(product => (
           <li key={product.id}>
-            <Link to={`/product/${product.slug}`}>{product.name}</Link>
+            <Link to={`/product/${product.slug}.html`}>{product.name}</Link>
           </li>
         ))}
       </ul>
