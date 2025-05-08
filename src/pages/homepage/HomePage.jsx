@@ -1,7 +1,7 @@
 // HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { productList } from '../../assets/database/database'; // Sesuaikan path
+import productList from '../../assets/database/database'; // Sesuaikan path
 
 function HomePage() {
   return (

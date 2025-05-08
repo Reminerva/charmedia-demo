@@ -34,7 +34,7 @@ export default function ProductDetailPage() {
   }
 
   function capitalizeWords(str) {
-    return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
   }
 
   const productDetailsname = productDetails.name;
