@@ -22,8 +22,8 @@ export const productData = {
       "/img/binky-bong/binky-bong2.jpg",
     ],
     relatedProducts: Array(8).fill(null).map((_, i) => `/images/related${i + 1}.jpg`),
-    quantity: 50,
-    link: "https://gooogle.com"
+    quantity: 100,
+    link: "https://shopee.co.id/Binky-Bong-NewJeans-Crochet-by-Charmedia%E2%9C%A8%EF%B8%8F-i.97645207.26085506028"
   },
 
 
@@ -66,7 +66,8 @@ export const productData = {
       "/img/oh-my-seventeen-beads/oh-my-seventeen-beads2.jpg",
     ],
     relatedProducts: Array(7).fill(null).map((_, i) => `/images/related_coaster${i + 1}.jpg`),
-    quantity: 60,
+    quantity: 100,
+    link: "https://shopee.co.id/-Oh-My-Seventeen-Beads-Keychain-by-Charmedia%E2%9C%A8%EF%B8%8F-i.97645207.26735455693"
   },
 
 
@@ -88,7 +89,8 @@ export const productData = {
       "/img/spirited-away-susuwatari-crochet-keychain/spirited-away-susuwatari-crochet-keychain2.jpg",
     ],
     relatedProducts: Array(4).fill(null).map((_, i) => `/images/related_wallet${i + 1}.jpg`),
-    quantity: 15,
+    quantity: 100,
+    link: "https://shopee.co.id/Spirited-Away-Susuwatari-Crochet-Keychain-Ghibli-Crochet-by-Charmedia%E2%9C%A8%EF%B8%8F-i.97645207.26235951780"
   },
 };
 

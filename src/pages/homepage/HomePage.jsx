@@ -5,7 +5,7 @@ import productList from '../../assets/database/database'; // Sesuaikan path
 
 function HomePage() {
   return (
-    <div>
+    <div className='bg-[#FFF8F0] p-6 mx-1 min-h-screen'>
       <h1>Daftar Produk</h1>
       <ul>
         {productList.map(product => (
