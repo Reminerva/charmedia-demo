@@ -1,13 +1,14 @@
 // database.js
 export const productData = {
   "binky-bong-new-jeans-crochet-keychain": {
-    name: "BINKY BONG NEWJEANS CROCHET KEYCHAIN",
-    price: "RP. 30.000",
+    name: "Binky Bong NewJeans Crochet by Charmedia",
+    price: "RP. 35.000",
     reviews: "2519 reviews",
-    description: "A tiny bundle of cuteness you can take anywhere! Each keychain is carefully handmade with love—perfect for adding a cozy touch to your bags, keys, or gifts! 🎀🍬💖🧸.",
+    description: "Binky Bong NewJeans Crochet by Charmedia✨️ \nPre-Order maksimal dalam 7 hari, tetapi dapat dikirim secepatnya jika produk sudah tersedia. \nUntuk pemesanan custom boleh chat Charmie yaa :))  \nCharmedia charms your life✨️",
     details: [
       { label: "Type", value: "Handmade Crochet Keychain" },
-      { label: "Size", value: "Approximately 5-7 cm (may vary slightly due to handmade nature)" },
+      { label: "Lebar", value: "7 cm" },
+      { label: "Tinggi", value: "10,5 cm" },
       { label: "Keyring Size", value: "2.5 cm diameter, made of durable alloy" },
       { label: "Material", value: "100% Cotton Yarn - soft, sturdy, and environmentally friendly" },
       { label: "Stuffing", value: "Premium Grade A Dacron - lightweight and retains shape over time" },
@@ -16,8 +17,8 @@ export const productData = {
       { label: "Customization", value: "Available upon request" },
     ],
     thumbnails: [
-      "https://down-id.img.susercontent.com/file/sg-11134201-22100-7aoyvztvl9ive1",
-      "https://i.pinimg.com/236x/af/9a/b2/af9ab2b5c5135521247ff076267a3af5.jpg",
+      "/img/binky-bong/binky-bong1.webp",
+      "/img/binky-bong/binky-bong2.jpg",
     ],
     relatedProducts: Array(8).fill(null).map((_, i) => `/images/related${i + 1}.jpg`),
     quantity: 50,
@@ -27,7 +28,7 @@ export const productData = {
 
   "my-neighbor-totoro-krochet-keychain": {
     name: "My Neighbor Totoro Crochet Keychain | Ghibli Crochet by Charmedia",
-    price: "RP. 21.950",
+    price: "RP. 22.000",
     reviews: "942 reviews",
     description: "My Neighbor Totoro Crochet Keychain by Charmedia. \nPre-Order maksimal dalam 7 hari, tetapi dapat dikirim secepatnya jika produk sudah tersedia.. \nUntuk pemesanan custom boleh chat Charmie yaa :)). \nCharmedia charms your life✨️",
     details: [
@@ -41,7 +42,6 @@ export const productData = {
       "/img/totoro/totoro1.webp",
       "/img/totoro/totoro2.jpg",
       "/img/totoro/totoro3.jpg",
-      "/img/totoro/totoro4.jpg",
     ],
     relatedProducts: Array(5).fill(null).map((_, i) => `/images/related_hoop${i + 1}.jpg`),
     quantity: 99,
