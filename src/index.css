@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Bright'; /* Nama yang akan Anda gunakan di CSS */
   src: local('Bright'), /* Opsional: Jika font terinstal lokal di komputer pengguna */
-       url('/src/assets/fonts/Bright-demo.otf') format('opentype'); /* Path ke file font Anda */
+       url('/src/assets/fonts/bright-demo.otf') format('opentype'); /* Path ke file font Anda */
   font-weight: normal; /* Atur ketebalan default font */
   font-style: normal; /* Atur style default font */
   font-display: swap; /* Rekomendasi untuk performa */
