@@ -19,6 +19,24 @@
 }
 
 @font-face {
+  font-family: 'Bright'; /* Nama yang akan Anda gunakan di CSS */
+  src: local('Bright'), /* Opsional: Jika font terinstal lokal di komputer pengguna */
+       url('/src/assets/fonts/Bright-demo.otf') format('opentype'); /* Path ke file font Anda */
+  font-weight: normal; /* Atur ketebalan default font */
+  font-style: normal; /* Atur style default font */
+  font-display: swap; /* Rekomendasi untuk performa */
+}
+
+@font-face {
+  font-family: 'BalooBhai'; /* Nama yang akan Anda gunakan di CSS */
+  src: local('BalooBhai'), /* Opsional: Jika font terinstal lokal di komputer pengguna */
+       url('/src/assets/fonts/BalooBhai-Regular.ttf') format('truetype'); /* Path ke file font Anda */
+  font-weight: normal; /* Atur ketebalan default font */
+  font-style: normal; /* Atur style default font */
+  font-display: swap; /* Rekomendasi untuk performa */
+}
+
+@font-face {
   font-family: "Xenois Soft W01 Heavy";
   src: url("https://db.onlinewebfonts.com/t/73886660f9e7958351d3e137b770877e.eot");
   src: url("https://db.onlinewebfonts.com/t/73886660f9e7958351d3e137b770877e.eot?#iefix")format("embedded-opentype"),
@@ -26,4 +44,9 @@
   url("https://db.onlinewebfonts.com/t/73886660f9e7958351d3e137b770877e.woff")format("woff"),
   url("https://db.onlinewebfonts.com/t/73886660f9e7958351d3e137b770877e.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/73886660f9e7958351d3e137b770877e.svg#Xenois Soft W01 Heavy")format("svg");
+}
+
+.text-outline-tailwind {
+  -webkit-text-stroke: 1.5px theme('colors.white'); /* Menggunakan palet warna Tailwind */
+  font-weight: 400; /* Opsional: Membuat teks lebih tebal agar outline terlihat lebih baik */
 }

@@ -1,5 +1,5 @@
 // database.js
-const templateDesc = "\nPre-Order maksimal dalam 7 hari, tetapi dapat dikirim secepatnya jika produk sudah tersedia. \nUntuk pemesanan custom boleh chat Charmie yaa :)). \nCharmedia charms your life✨️"
+const templateDesc = "\nPre-Order maksimal dalam 7 hari, tetapi dapat dikirim secepatnya jika produk sudah tersedia. Untuk pemesanan custom boleh chat Charmie yaa :)). Charmedia charms your life✨️"
 export const productData = {
   "binky-bong-new-jeans-crochet-keychain": {
     name: "Binky Bong NewJeans Crochet by Charmedia✨️",
